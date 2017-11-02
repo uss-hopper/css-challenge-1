@@ -67,6 +67,10 @@ body {
 	font-family: Courier, monospace;
 }
 
+section {
+	padding: 4rem 0;
+}
+
 /* HEADER STYLES */
 header {
 	background-color: #333333;
@@ -82,7 +86,7 @@ header h1 {
 /* WELCOME */
 img[alt="welcome to my homepage"] {
 	display: block;
-	margin: 0 auto;
+	margin: 0 auto 2rem;
 }
 
 .instructions-wrapper {
@@ -137,6 +141,7 @@ table {
 
 section:nth-child(4) h2 {
 	text-align: right;
+	margin-top: 0;
 }
 
 /* CONTACT */
@@ -147,6 +152,29 @@ section:last-child {
 
 .form-wrapper {
 	background-color: darkgreen;
+	padding: 2rem;
+}
+
+label {
+	display: block;
+	margin: 1rem 0 0.5rem 0;
+}
+
+input, textarea {
+	width: 40%;
+	padding: 0.5rem;
+}
+
+button {
+	background-color: lime;
+	border: none;
+	padding: 0.5rem 2rem;
+	margin-top: 1rem;
+	font-weight: bold;
+}
+
+.form-wrapper h2 {
+	margin-top: 0;
 }
 
 /* FOOTER */
@@ -154,4 +182,5 @@ footer {
 	background-color: #000000;
 	color: #ffffff;
 	text-align: center;
+	padding: 1rem 0;
 }
