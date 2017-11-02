@@ -79,6 +79,31 @@ header h1 {
 	margin-right: 2rem;
 }
 
+/* WELCOME */
+img[alt="welcome to my homepage"] {
+	display: block;
+	margin: 0 auto;
+}
+
+.instructions-wrapper {
+	border: 5px solid #000;
+	padding: 2rem;
+}
+
+.instructions-content {
+	width: 60%;
+	float: left;
+}
+
+img[alt="captain janeway"] {
+	width: 250px;
+	float: right;
+}
+
+.instructions-content h2 {
+	margin-top: 0;
+}
+
 /* ABOUT ME */
 .about-me {
 	background-color: blue;
