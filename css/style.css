@@ -61,3 +61,49 @@ body { width: 100%;}
 * * Pseudo Classes
 * * Attribute Selectors
 ******************************************************/
+
+/* GLOBAL STYLES */
+body {
+	font-family: Courier, monospace;
+}
+
+/* HEADER STYLES */
+header {
+	background-color: #333333;
+	color: lime;
+}
+
+header h1 {
+	display: inline-block;
+	font-size: 3rem;
+	margin-right: 2rem;
+}
+
+/* ABOUT ME */
+.about-me {
+	background-color: blue;
+	color: #ffffff;
+}
+
+section.about-me span {
+	color: #ffff00;
+	font-style: italic;
+	font-weight: bold;
+}
+
+/* CONTACT */
+section:last-child {
+	background-color: #333333;
+	color: lime;
+}
+
+.form-wrapper {
+	background-color: darkgreen;
+}
+
+/* FOOTER */
+footer {
+	background-color: #000000;
+	color: #ffffff;
+	text-align: center;
+}
