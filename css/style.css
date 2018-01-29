@@ -170,6 +170,21 @@ section.about-me {
 /*****************************************************
 * $killz
 ******************************************************/
+section:nth-child(4) h2 {
+	text-align: right;
+	margin-top: 0;
+}
+
+table {
+	width: 100%;
+	color: lime;
+}
+
+th, td {
+	background: #333;
+	padding: 1rem;
+	text-align: left;
+}
 
 /*****************************************************
 * contact
