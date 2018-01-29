@@ -153,6 +153,20 @@ section.about-me {
 	color: #fff;
 }
 
+.about-me img {
+	width: 300px;
+	height: auto;
+	border: 3px solid;
+	float: left;
+	margin-right: 2rem;
+}
+
+.about-me span {
+	color: yellow;
+	font-style: italic;
+	font-weight: bold;
+}
+
 /*****************************************************
 * $killz
 ******************************************************/
