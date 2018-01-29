@@ -91,6 +91,59 @@ header h1 {
 /*****************************************************
 * welcome
 ******************************************************/
+.instructions-wrapper {
+	border: 5px solid #000;
+	padding: 2rem;
+}
+
+.instructions-content h2 {
+	margin-top: 0;
+}
+
+img[src*="welcome.gif"] {
+	display: block;
+	margin: 0 auto 1rem;
+}
+
+/* float method */
+/*.instructions-wrapper img {
+	width: 250px;
+	height: auto;
+	float: right;
+}
+
+.instructions-content {
+	float: left;
+	width: 50%;
+}
+*/
+
+/* flexbox method */
+/*
+.instructions-wrapper {
+	display: flex;
+}
+
+img[alt*="janeway"] {
+	width: 250px;
+	align-self: start;
+}
+
+.instructions-content ol {
+	width: 60%;
+}
+*/
+
+/* grid method */
+.instructions-wrapper {
+	display: grid;
+	grid: 1fr / 2fr 1fr;
+}
+
+img[alt*="janeway"] {
+	width: 250px;
+	justify-self: end;
+}
 
 /*****************************************************
 * about me
