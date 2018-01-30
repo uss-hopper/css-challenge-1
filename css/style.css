@@ -194,6 +194,29 @@ section:last-child {
 	color: lime;
 }
 
+.form-wrapper {
+	background-color: forestgreen;
+	padding: 2rem;
+}
+
+label {
+	display: block;
+	margin: 1rem 0 0.25rem;
+}
+
+textarea, input {
+	width: 30%;
+	padding: 0.5rem;
+}
+
+button {
+	background-color: lime;
+	border-color: lime;
+	padding: 0.5rem 2.5rem;
+	font-weight: bold;
+	font-size: 0.9rem;
+}
+
 /*****************************************************
 * footer
 ******************************************************/
