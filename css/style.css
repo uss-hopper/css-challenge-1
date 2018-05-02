@@ -92,6 +92,22 @@ section.about-me {
 	color: #fff;
 }
 
+img[alt="welcome to my homepage"] {
+	display: block;
+	margin: 0 auto;
+}
+
+.instructions-wrapper {
+	display: flex;
+	align-items: flex-start;
+	border: 3px solid black;
+	padding: 20px;
+}
+
+.instructions-wrapper img {
+	width: 250px;
+}
+
 /*****************************************************
 * skills styles
 ******************************************************/
