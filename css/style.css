@@ -62,166 +62,45 @@ body { width: 100%;}
 * * Attribute Selectors
 ******************************************************/
 
+
 /*****************************************************
-* global
+* global styles
 ******************************************************/
-html, body {
-	font-family: Courier New, monospace;
-}
-
-section {
-	padding: 2rem 0;
+body {
+	font-family: monospace, "Courier New";
 }
 
 /*****************************************************
-* header
+* header styles
 ******************************************************/
 header {
 	background-color: #333;
 	color: lime;
-	padding: 2rem 0;
-}
-
-header h1 {
-	margin: 0 2rem 0 0;
-	display: inline-block;
-	font-size: 3rem;
 }
 
 /*****************************************************
-* welcome
-******************************************************/
-.instructions-wrapper {
-	border: 5px solid #000;
-	padding: 2rem;
-}
-
-.instructions-content h2 {
-	margin-top: 0;
-}
-
-img[src*="welcome.gif"] {
-	display: block;
-	margin: 0 auto 1rem;
-}
-
-/* float method */
-/*.instructions-wrapper img {
-	width: 250px;
-	height: auto;
-	float: right;
-}
-
-.instructions-content {
-	float: left;
-	width: 50%;
-}
-*/
-
-/* flexbox method */
-/*
-.instructions-wrapper {
-	display: flex;
-}
-
-img[alt*="janeway"] {
-	width: 250px;
-	align-self: start;
-}
-
-.instructions-content ol {
-	width: 60%;
-}
-*/
-
-/* grid method */
-.instructions-wrapper {
-	display: grid;
-	grid: 1fr / 2fr 1fr;
-}
-
-img[alt*="janeway"] {
-	width: 250px;
-	justify-self: end;
-}
-
-/*****************************************************
-* about me
+* about me styles
 ******************************************************/
 section.about-me {
 	background-color: blue;
 	color: #fff;
 }
 
-.about-me img {
-	width: 300px;
-	height: auto;
-	border: 3px solid;
-	float: left;
-	margin-right: 2rem;
-}
-
-.about-me span {
-	color: yellow;
-	font-style: italic;
-	font-weight: bold;
-}
+/*****************************************************
+* skills styles
+******************************************************/
 
 /*****************************************************
-* $killz
+* contact styles
 ******************************************************/
-section:nth-child(4) h2 {
-	text-align: right;
-	margin-top: 0;
-}
-
-table {
-	width: 100%;
-	color: lime;
-}
-
-th, td {
-	background: #333;
-	padding: 1rem;
-	text-align: left;
-}
-
-/*****************************************************
-* contact
-******************************************************/
-section:last-child {
+div.sfooter-content section:last-child {
 	background-color: #333;
-	color: lime;
-}
-
-.form-wrapper {
-	background-color: forestgreen;
-	padding: 2rem;
-}
-
-label {
-	display: block;
-	margin: 1rem 0 0.25rem;
-}
-
-textarea, input {
-	width: 30%;
-	padding: 0.5rem;
-}
-
-button {
-	background-color: lime;
-	border-color: lime;
-	padding: 0.5rem 2.5rem;
-	font-weight: bold;
-	font-size: 0.9rem;
 }
 
 /*****************************************************
-* footer
+* footer styles
 ******************************************************/
 footer {
-	background-color: rgb(0,0,0);
+	background-color: black;
 	color: white;
-	text-align: center;
 }
