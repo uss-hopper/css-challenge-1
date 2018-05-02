@@ -88,6 +88,13 @@ header h1 {
 	font-size: 2.5rem;
 }
 
+@media only screen and (min-width: 500px) {
+	header {
+		background-color: lime;
+		color: #333333;
+	}
+}
+
 /*****************************************************
 * welcome styles
 ******************************************************/
@@ -134,6 +141,12 @@ section.about-me {
 .about-me p span {
 	color: yellow;
 	font-style: italic;
+}
+
+@media only screen and (min-width: 500px) {
+	section.about-me {
+		background-color: red;
+	}
 }
 
 /*****************************************************
