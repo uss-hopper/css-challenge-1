@@ -85,13 +85,8 @@ header h1 {
 }
 
 /*****************************************************
-* about me styles
+* welcome styles
 ******************************************************/
-section.about-me {
-	background-color: blue;
-	color: #fff;
-}
-
 img[alt="welcome to my homepage"] {
 	display: block;
 	margin: 0 auto;
@@ -106,6 +101,25 @@ img[alt="welcome to my homepage"] {
 
 .instructions-wrapper img {
 	width: 250px;
+}
+
+/*****************************************************
+* about me styles
+******************************************************/
+section.about-me {
+	background-color: blue;
+	color: #fff;
+}
+
+.about-me img {
+	width: 300px;
+	float: left;
+	margin-right: 2rem;
+}
+
+.about-me p span {
+	color: yellow;
+	font-style: italic;
 }
 
 /*****************************************************
