@@ -125,6 +125,20 @@ section.about-me {
 /*****************************************************
 * skills styles
 ******************************************************/
+section:nth-child(4) h2 {
+	text-align: right;
+}
+
+section:nth-child(4) table {
+	width: 100%;
+	color: lime;
+}
+
+section:nth-child(4) table td,
+section:nth-child(4) table th {
+	background-color: #333;
+	padding: 10px;
+}
 
 /*****************************************************
 * contact styles
