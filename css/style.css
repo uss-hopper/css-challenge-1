@@ -70,6 +70,10 @@ body {
 	font-family: monospace, "Courier New";
 }
 
+section {
+	padding: 2.75rem 0;
+}
+
 /*****************************************************
 * header styles
 ******************************************************/
@@ -89,7 +93,7 @@ header h1 {
 ******************************************************/
 img[alt="welcome to my homepage"] {
 	display: block;
-	margin: 0 auto;
+	margin: 0 auto 2rem;
 }
 
 .instructions-wrapper {
@@ -101,6 +105,15 @@ img[alt="welcome to my homepage"] {
 
 .instructions-wrapper img {
 	width: 250px;
+}
+
+.instructions-content {
+	flex: 1;
+	padding-right: 2rem;
+}
+
+.instructions-content h2 {
+	margin-top: 0;
 }
 
 /*****************************************************
@@ -115,6 +128,7 @@ section.about-me {
 	width: 300px;
 	float: left;
 	margin-right: 2rem;
+	border: 3px solid white;
 }
 
 .about-me p span {
@@ -127,6 +141,7 @@ section.about-me {
 ******************************************************/
 section:nth-child(4) h2 {
 	text-align: right;
+	margin-top: 0;
 }
 
 section:nth-child(4) table {
